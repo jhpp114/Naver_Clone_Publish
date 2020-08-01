@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naver Clone</title>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+</head>
+<body>
+    <!-- First Section -->
+    <section class="first_section">
+        <div class="first_side">
+            <p>Start With Naver 
+                <i class="right_arrow fas fa-chevron-circle-right"></i>
+            </p>
+            <span>|</span>
+            <p class="junior_naver">
+                <span class="apply_blue">JU</span><span class="apply_red">NI</span><span class="apply_green">OR</span>
+                <span class="naver_color">_NAVER
+                </span>
+                
+            </p>
+            <p class="happy_bean">HappyBean</p>
+        </div>
+        <div class="hidden_login">
+            <p>Login</p>
+        </div>
+        <!-- naver search bar with logo -->
+        <header class="main_logo">
+            <img src="./images/naver_Logo.png" alt="naver logo">
+            <form id="main_search_bar">
+                <input type="text">
+                <!-- <div class="search_bar_icons"> -->
+                    <i class="far fa-keyboard"></i>
+                    <i class="fas fa-caret-down"></i>
+                    <div>
+                        <i class="fas fa-search"></i>
+                    </div>
+                    
+                <!-- </div> -->
+            </form>
+        </header>
+        <!-- End naver search bar with logo -->
+    </section>
+    <!-- End First Section -->
+    
+    <!-- Option Lines -->
+    <hr class="section_divider">
+    <section>
+        <main class="main_option">
+            <div class="option_green">
+                <i class="fas fa-envelope-open-text">  Mail</i>
+            </div>
+            <div class="option_green">
+                <p>Cafe</p>
+            </div>
+            <div class="option_green">
+                <p>Cafe</p>
+            </div>
+            <div class="option_green">
+                <p>K-In</p>
+            </div>
+            <div class="option_green">
+                <p>Shopping</p>
+            </div>
+            <div class="option_green">
+                <p>Pay</p>
+            </div>
+            <div class="option_green">
+                <i class="fas fa-play"> TV</i>
+            </div>
+            <div class="option_black">
+                <p>Dic</p>
+            </div>
+            <div class="option_black">
+                <p>News</p>
+            </div>
+            <div class="option_black">
+                <p>Invest</p>
+            </div>
+            <div class="option_black">
+                <p>Real Estate</p>
+            </div>
+            <div class="option_black">
+                <p>Map</p>
+            </div>
+            <div class="option_black">
+                <p>Movie</p>
+            </div>
+            <div class="option_black">
+                <p>Music</p>
+            </div>
+            <div class="option_black">
+                <p>Book</p>
+            </div>
+            <div class="option_black">
+                <p>Webtoon</p>
+            </div>
+            <div class="option_more">
+                <p>More 
+                    <i class="fas fa-chevron-down"></i>
+                </p>
+            </div>
+            <div class="filter_more">
+                <p><i class="fas fa-exclamation-circle"></i>
+                Request Filter <i class="fas fa-chevron-down"></i>
+            </p>
+            </div>
+            <!-- Hide it for now -->
+            <!-- Behavior control through js -->
+            <!--  -->
+        </main>
+        <div class="option_more_displayer">
+            <div class="option_black">
+                <p>Dic</p>
+            </div>
+            <div class="option_black">
+                <p>News</p>
+            </div>
+            <div class="option_black">
+                <p>Invest</p>
+            </div>
+            <div class="option_black">
+                <p>Real Estate</p>
+            </div>
+            <div class="option_black">
+                <p>Map</p>
+            </div>
+            <div class="option_black">
+                <p>Movie</p>
+            </div>
+            <div class="option_black">
+                <p>Music</p>
+            </div>
+            <div class="option_black">
+                <p>Book</p>
+            </div>
+            <div class="option_black">
+                <p>Webtoon</p>
+            </div>
+        </div>
+    </section>
+    <!-- End Option Lines -->
+    <hr class="section_divider_bottom">
+    <!-- Main Content -->
+    <section class="main_section">
+        <main class="main_content">
+            <div class="covid_banner">
+                <img src="./images/covid_care_img.jpg" alt="COVID banner">
+            </div>
+            <div class="news_highlights">
+                <div class="news_hl_left">
+                    <p class="main_news">Main News 
+                        <i class="fas fa-chevron-right"></i> 
+                        <span class="dynamic_news"></span> 
+                    </p>
+                </div>
+                <div class="news_hl_right">
+                    <p class="news_highlights_side_news">
+                        Naver News
+                        <span class="side_news_span">
+                            <i class="fas fa-circle"></i> 
+                            Celebrity News Sport Economic
+                        </span>
+                    </p>
+                </div>
+            </div>
+            <!-- News Stand Start -->
+            <div class="news_stand">
+                <div class="news_stand_media">
+                    <i class="far fa-newspaper"></i>
+                    <p>News Stands</p>
+                    <i class="fas fa-chevron-right"></i>
+                    <p class="media_gray">Subscribe Media</p>
+                    <p>Entire Media</p>
+                </div>
+                <div class="news_stand_view_options">
+                    <i class="fas fa-list"></i>
+                    <i class="fas fa-th-large"></i>
+                    <i class="fas fa-cog"></i>
+                </div>
+            </div>
+            <!-- End News Stand -->
+            <!-- Start Media grids -->
+            <div class="media_grid">
+                <i class="fas fa-chevron-circle-left"></i>
+                <img src="./images/medias/Architect_media.png" alt="media news related to architecture">
+                <img src="./images/medias/BusinessPost.png" alt="media news related to business">
+                <img src="./images/medias/BylineNetwork.png" alt="media news related to network">
+                <img src="./images/medias/EBS.png" alt="media news related to education">
+                <img src="./images/medias/Herald.png" alt="media news related to Herald">
+                <img src="./images/medias/It_Dong_A.png" alt="media news related to Educational book">
+                <img src="./images/medias/JiJi_Media.png" alt="media news related to daily news">
+                <img src="./images/medias/jtbc.png" alt="media news related to daily news">
+                <img src="./images/medias/Metro.png" alt="media news related to metro">
+                <img src="./images/medias/News1.png" alt="media news related to daily news">
+                <img src="./images/medias/newsDaily.png" alt="media news related to daily news">
+                <img src="./images/medias/Next_Daily.png" alt="media news related to daily news">
+                <img src="./images/medias/BylineNetwork.png" alt="media news related to network">
+                <img src="./images/medias/EBS.png" alt="media news related to education">
+                <img src="./images/medias/Herald.png" alt="media news related to Herald">
+                <img src="./images/medias/It_Dong_A.png" alt="media news related to Educational book">
+                <img src="./images/medias/JiJi_Media.png" alt="media news related to daily news">
+                <img src="./images/medias/Architect_media.png" alt="media news related to architecture">
+                <img src="./images/medias/BusinessPost.png" alt="media news related to business">
+                <img src="./images/medias/BylineNetwork.png" alt="media news related to network">
+                <img src="./images/medias/jtbc.png" alt="media news related to daily news">
+                <img src="./images/medias/Metro.png" alt="media news related to metro">
+                <img src="./images/medias/News1.png" alt="media news related to daily news">
+                <img src="./images/medias/newsDaily.png" alt="media news related to daily news">
+                <i class="fas fa-chevron-circle-right"></i>
+            </div>
+            <!-- End Meida grids -->
+            <!-- Start basic things to read -->
+            <div class="basic_thing_to_read">
+                <div class="things_to_read_left">
+                    <p>Things to Read for Today 
+                        <span>Categorize various Articles</span> 
+                    </p>
+                </div>
+                <div class="things_to_read_right">
+                    <p>2,152  <span class="gray_font">articles</span></p>
+                    <span>|</span>
+                    <p class="favorite_filter"> 
+                        <i class="fas fa-cog"></i>
+                        Add to Favorite
+                    </p>
+                </div>
+            </div>
+            <!-- End basic thing to read -->
+            <!-- Main Basic thing to read -->
+            <div class="option_things_to_read">
+                <i class="fas fa-chevron-circle-left"></i>
+                <div class="read_entertain">
+                    <a class="active" href="#">Entertain</a>
+                </div>
+                <div class="read_sport">
+                    <a href="#">Sport</a>
+                </div>
+                <div class="read_vehicle">
+                    <a href="#">Vehicle</a>
+                </div>
+                <div class="read_webtoon">
+                    <a href="#">Webtoon</a>
+                </div>
+                <div class="read_economics">
+                    <a href="#">Econ M</a>
+                </div>
+                <div class="read_food">
+                    <a href="#">Food</a>
+                </div>
+                <div class="read_game">
+                    <a href="#">Game</a>
+                </div>
+                <div class="read_movie">
+                    <a href="#">Movie</a>
+                </div>
+                <i class="fas fa-chevron-circle-right"></i>
+            </div>
+            <!-- End Main Basic thing to read -->
+            <!-- Start Main Content Read -->
+            <div class="main_content_read">
+                <ul class="list_content_read">
+                    <li class="content_item_read">
+                        <a href="#">
+                            <img src="./images/contents/content1.jpg" alt="furniture">
+                            <span>
+                                <p class="content_filter_entertain">Entertain</p>
+                                <p class="content_title">Play inside House, Create Mini Bar</p>
+                                <p class="content_story">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Explicabo ex doloribus vero quibusdam facilis voluptate 
+                                    ullam nemo dolore esse quas neque libero maiores molestiae, 
+                                    commodi veritatis odio et harum numquam?
+                                </p>
+                                    <span class="content_writer">
+                                        Circle &nbsp; 1 weeks ago
+                                    </span>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="content_item_read">
+                        <a href="#">
+                            <img src="./images/contents/content2.jpg" alt="Solar System">
+                            <span>
+                                <p class="content_filter_entertain">Entertain</p>
+                                <p class="content_title">Play inside House, Create Mini Bar</p>
+                                <p class="content_story">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Explicabo ex doloribus vero quibusdam facilis voluptate 
+                                    ullam nemo dolore esse quas neque libero maiores molestiae, 
+                                    commodi veritatis odio et harum numquam?</p>
+                                <span class="content_writer">
+                                    Triangle  &nbsp; 2 days ago
+                                </span>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="content_item_read">
+                        <a href="#">
+                            <img src="./images/contents/content3.jpg" alt="Male wearing black turtle neck cloth">
+                            <span>
+                                <p class="content_filter_entertain">Entertain</p>
+                                <p class="content_title">Play inside House, Create Mini Bar</p>
+                                <p class="content_story">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Explicabo ex doloribus vero quibusdam facilis voluptate 
+                                    ullam nemo dolore esse quas neque libero maiores molestiae, 
+                                    commodi veritatis odio et harum numquam?</p>
+                                <span class="content_writer">
+                                    Square  &nbsp; 2 weeks ago
+                                </span>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="content_item_read">
+                        <a href="#">
+                            <img src="./images/contents/content4.jpg" alt="Play smartphone at the cafe">
+                            <span>
+                                <p class="content_filter_entertain">Entertain</p>
+                                <p class="content_title">Play inside House, Create Mini Bar</p>
+                                <p class="content_story">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Explicabo ex doloribus vero quibusdam facilis voluptate 
+                                    ullam nemo dolore esse quas neque libero maiores molestiae, 
+                                    commodi veritatis odio et harum numquam?</p>
+                                <span class="content_writer">
+                                    Rectangle  &nbsp; 5 hours ago
+                                </span>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <hr class="section_divider_book">
+            <!-- End Main Content Read -->
+            <!-- Start Book Content -->
+            <div class="book_contents">
+                <div class="book_section_header">
+                    <div class="left_book_header">
+                        <h3 class="book_section_title">
+                            Best Seller
+                            <span class="book_stat_date">Statistical Update Date: 2020-07.13 ~ 2020-07.19</span>
+                        </h3>
+                    </div>
+                    <div class="right_book_header">
+                        <p>Data Provided &middot; Internet BookStore</p>
+                    </div>
+                </div>
+                <ul class="book_lists">
+                    <li class="book_list">
+                        <a href="#">
+                            <img src="./images/books/Book1.jpg" alt="book about investment">
+                            <span>
+                                <div class="book_title_container">
+                                    <h4 class="book_title">1. Movement of Wealth</h4>
+                                </div>
+                                <div class="book_info_container">
+                                    <span class="book_info">
+                                        <p>Author: ABC</p>
+                                        <p>Publisher: AAA</p>
+                                        <p>Rate: 
+                                            <span class="fa fa-star checked">0</span>
+                                        </p>
+                                    </span>
+                                </div>
+                                
+                            </span>
+                        </a>
+                    </li>
+                    <li class="book_list">
+                        <a href="#">
+                            <img src="./images/books/Book2.jpg" alt="book, The Having">
+                            <span>
+                                <div class="book_title_container">
+                                    <h4 class="book_title">2. The Having</h4>
+                                </div>
+                                <div class="book_info_container">
+                                    <span class="book_info">
+                                        <p>Author: ABC</p>
+                                        <p>Publisher: AAA</p>
+                                        <p>Rate: <span class="fa fa-star checked"> 10</span></p>
+                                    </span>
+                                </div> 
+                            </span>
+                        </a>
+                    </li>
+                    <li class="book_list">
+                        <a href="#">
+                            <img src="./images/books/Book3.jpg" alt="book, Property of Money">
+                            <span>
+                                <div class="book_title_container">
+                                    <h4 class="book_title">3. Property of Money</h4>
+                                </div>
+                                <div class="book_info_container">
+                                    <span class="book_info">
+                                        <p>Author: DEF</p>
+                                        <p>Publisher: DDD</p>
+                                        <p>Rate: <span class="fa fa-star checked">9.33</span></p>
+                                    </span>
+                                </div>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="book_list">
+                        <a href="#">
+                            <img src="./images/books/Book4.jpg" alt="book, Keep Going">
+                            <span>
+                                <div class="book_title_container">
+                                    <h4 class="book_title">4. Keep Going</h4>
+                                </div>
+                                <div class="book_info_container">
+                                    <span class="book_info">
+                                        <p>Author: DEF</p>
+                                        <p>Publisher: DDD</p>
+                                        <p>Rate: <span class="fa fa-star checked">0</span></p>
+                                    </span>
+                                </div>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="book_list">
+                        <a href="#">
+                            <img src="./images/books/Book5.jpg" alt="book, From Your Picture">
+                            <span>
+                                <div class="book_title_container">
+                                    <h4 class="book_title">5. From Your Picture</h4>
+                                </div>
+                                <div class="book_info_container">
+                                    <span class="book_info">
+                                        <p>Author: DEF</p>
+                                        <p>Publisher: DDD</p>
+                                        <p>Rate: <span class="fa fa-star checked">0</span></p>
+                                    </span>
+                                </div>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- End Book Content -->
+            <hr class="section_divider_bottom">
+            <div class="book_content_extra_container">
+                <ul class="book_contents_extra">
+                    <li class="book_content_extra">
+                        <a href="#">
+                            <img src="./images/books/Book_Content1.jpg" alt="Book related to happniess">
+                            <span class="right_book_extra_content">
+                                <p class="book_extra_category">Book</p>
+                                <p class="book_extra_title">Happiness</p>
+                                <p class="book_info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Quasi voluptate doloribus placeat laborum 
+                                    dignissimos, delectus exercitationem facilis 
+                                    doloremque maxime totam suscipit modi sunt 
+                                    labore eveniet quidem optio incidunt enim error.
+                                </p>
+                                <span>
+                                    <p class="content_writer">
+                                        Circle 
+                                        <span>
+                                            &middot;
+                                            2 Month ago
+                                        </span>
+                                    </p>
+                                </span>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="book_content_extra">
+                        <a href="#">
+                            <img src="./images/books/Book_Content2.jpg" alt="Book related to parenting">
+                            <span class="right_book_extra_content">
+                                <p class="book_extra_category">Book</p>
+                                <p class="book_extra_title">Parenting</p>
+                                <p class="book_info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Quasi voluptate doloribus placeat laborum 
+                                    dignissimos, delectus exercitationem facilis 
+                                    doloremque maxime totam suscipit modi sunt 
+                                    labore eveniet quidem optio incidunt enim error.
+                                </p>
+                                <span>
+                                    <p class="content_writer">
+                                        Rectangle 
+                                        <span>
+                                            &middot;
+                                            1 week ago
+                                        </span>
+                                    </p>
+                                </span>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="book_content_extra">
+                        <a href="#">
+                            <img src="./images/books/Book_Content3.jpg" alt="Book related path">
+                            <span class="right_book_extra_content">
+                                <p class="book_extra_category">Book</p>
+                                <p class="book_extra_title">The Path</p>
+                                <p class="book_info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Quasi voluptate doloribus placeat laborum 
+                                    dignissimos, delectus exercitationem facilis 
+                                    doloremque maxime totam suscipit modi sunt 
+                                    labore eveniet quidem optio incidunt enim error.
+                                </p>
+                                <span>
+                                    <p class="content_writer">
+                                        Cubic 
+                                        <span>
+                                            &middot;
+                                            6 hours ago
+                                        </span>
+                                    </p>
+                                </span>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="book_content_extra">
+                        <a href="#">
+                            <img src="./images/books/Book_Content4.jpg" alt="Book related to medical">
+                            <span class="right_book_extra_content">
+                                <p class="book_extra_category">Book</p>
+                                <p class="book_extra_title">Basics of Medical</p>
+                                <p class="book_info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Quasi voluptate doloribus placeat laborum 
+                                    dignissimos, delectus exercitationem facilis 
+                                    doloremque maxime totam suscipit modi sunt 
+                                    labore eveniet quidem optio incidunt enim error.
+                                </p>
+                                <span>
+                                    <p class="content_writer">
+                                        Triangle 
+                                        <span>
+                                            &middot;
+                                            4 month ago
+                                        </span>
+                                    </p>
+                                </span>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="book_content_extra">
+                        <a href="#">
+                            <img src="./images/books/Book_Content5.jpg" alt="Book related to programming">
+                            <span class="right_book_extra_content">
+                                <p class="book_extra_category">Book</p>
+                                <p class="book_extra_title">Programming is...</p>
+                                <p class="book_info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Quasi voluptate doloribus placeat laborum 
+                                    dignissimos, delectus exercitationem facilis 
+                                    doloremque maxime totam suscipit modi sunt 
+                                    labore eveniet quidem optio incidunt enim error.
+                                </p>
+                                <span>
+                                    <p class="content_writer">
+                                        Square 
+                                        <span>
+                                            &middot;
+                                            4 days ago
+                                        </span>
+                                    </p>
+                                </span>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <hr class="section_divider_bottom">
+            <div class="video_contents_container">
+                <div class="video_container">
+                    <video class="video" 
+                    src="https://player.vimeo.com/external/288672136.sd.mp4?s=724b9d085548b26c46c42d7bf99f0f9f5d4288a1&profile_id=164&oauth2_token_id=57447761" 
+                    loop muted 
+                    type="video/mp4"
+                    controls preload="1"> 
+                    </video>
+                    <span>
+                        <h4 class="video_title">Enjoy the Weather of California</h4>
+                        <p class="video_info">Video is from Videvo</p>
+                    </span>
+                </div>
+                <div class="video_container">
+                    <video class="video" 
+                    src="https://cdn.videvo.net/videvo_files/video/free/2019-07/small_watermarked/190625_07_RooftopFlightNight_Drone_04_preview.webm" loop muted 
+                    type="video/mp4"
+                    controls preload="1"> 
+                    </video>
+                    <span>
+                        <h4 class="video_title">Experience the Traffic</h4>
+                        <p class="video_info">Video is from Videvo</p>
+                    </span>
+                </div>
+                <div class="video_container">
+                    <video class="video" 
+                    src="https://www.videvo.net/videvo_files/converted/2014_07/preview/Run_2_wo_metadata_h264420_720p_UHQ.mp488976.webm" loop muted 
+                    type="video/mp4"
+                    controls preload="1"> 
+                    </video>
+                    <span>
+                        <h4 class="video_title">Night View of the City</h4>
+                        <p class="video_info">Video is from Videvo</p>
+                    </span>
+                </div>
+            </div>  
+        </main>
+
+        <!-- side content start -->
+        <div class="side_content">
+            <div class="right_content_signin">
+                <span>
+                    <p>Connect with People</p>
+                    <div class="naver_signin">
+                        <h2>NAVER
+                            <span class="small_signin">Sign in</span>
+                        </h2>
+                    </div>
+                    <div class="signin_helper">
+                        <span>
+                            <i class="fas fa-unlock-alt"></i>
+                            Forgot Username &middot; Password
+                        </span>
+                        <span>
+                            <i class="fas fa-user"></i>
+                            Sign up
+                        </span>
+                    </div>
+                </span>
+            </div>
+            <!-- Start weather section -->
+            <div class="info_weather_container">
+                <span class="weather_title"></span>
+                <span class="weather_data">
+                </span>
+            </div>
+            <!-- End weather section -->
+            <div class="advertisement_field">
+                <p>Some Advertisement</p>
+            </div>
+            <!-- Shopping Section Start -->
+            <div class="shopping_options">
+                <div class="shopping_main_option">
+                    <p>Shopping</p>
+                </div>
+                <div class="shopping_main_categories">
+                    <span class="shopping_category_opt">
+                        <p>Product</p>
+                        <p>Shopping Mall</p>
+                    </span>
+                </div>
+                <div class="shopping_view_more">
+                    <p>Look Around!</p>
+                </div>
+            </div>
+            <!-- End Shopping Section -->
+            <!-- Shopping section container -->
+            <div class="shopping_section_container">
+                <div class="shopping_places">
+                    <span>&middot;Amazon</span>
+                    <span>&middot;Ebay</span>
+                    <span>&middot;Auction</span>
+                    <span>&middot;G-Market</span>
+                    <span>&middot;Costco</span>
+                    <span>&middot;W-Mart</span>
+                    <span>&middot;W-Green</span>
+                    <span>&middot;Safeway</span>
+                    <span>&middot;FredMeyer</span>
+                    <span>&middot;GS-Market</span>
+                    <span>&middot;Home Plus</span>
+                    <span>&middot;Seven</span>
+                </div>
+                <div class="shopping_header">
+                    <header class="shopping_header_container">
+                        <h4>All | 
+                            <span class="shopping_others">
+                                Fashion &middot; Beauty |
+                                Food |
+                                Life
+                            </span> 
+                        </h4>
+                        <div>
+                            <span>
+                                <p>1 / 19</p>
+                                <i class="fas fa-chevron-left"></i>
+                                <i class="fas fa-chevron-right"></i>
+                            </span>
+                        </div>
+                    </header>
+                    
+                    <!-- Shopping Pics -->
+                    <div class="shopping_heading_items">
+                        <div class="shopping_item_cont">
+                            <div class="shopping_item">
+                                <img class="shopping_item_img" src="./images/shopping/side_shopping1.jpg" alt="package of chicken breast">
+                                <p class="shopping_item_info">
+                                    Chicken Breast
+                                </p>
+                            </div>
+                            <div class="shopping_item">
+                                <img class="shopping_item_img" src="./images/shopping/side_shopping2.jpg" alt="Drying rack">
+                                <p>Drying Rack</p>
+                            </div>
+                            <div class="shopping_item">
+                                <img class="shopping_item_img" src="./images/shopping/side_shopping3.jpg" alt="Summer Fashion">
+                                <p>Summer Fashion</p>
+                            </div>
+                            <div class="shopping_item">
+                                <img class="shopping_item_img" src="./images/shopping/side_shopping4.jpg" alt="Sunglass">
+                                <p>Sunglass</p>
+                            </div>
+                            <div class="shopping_item">
+                                <img class="shopping_item_img" src="./images/shopping/side_shopping5.jpg" alt="Summer Fashion">
+                                <p>Summer Fashion</p>
+                            </div>
+                            <div class="shopping_item">
+                                <img class="shopping_item_img" src="./images/shopping/side_shopping6.jpg" alt="Skincare product">
+                                <p>Skin Care</p>
+                            </div>
+                            <div class="shopping_item">
+                                <img class="shopping_item_img" src="./images/shopping/side_shopping7.jpg" alt="Skincare product">
+                                <p>Skin Care</p>
+                            </div>
+                            <div class="shopping_item">
+                                <img class="shopping_item_img" src="./images/shopping/side_shopping8.jpg" alt="Summer Fashion">
+                                <p>Summer Fashion</p>
+                            </div>
+                            <div class="shopping_item">
+                                <img class="shopping_item_img" src="./images/shopping/side_shopping9.jpg" alt="Watch">
+                                <p>Watch</p>
+                            </div>
+                        </div>
+                        <div class="shopping_item_bottom">
+                            <span>
+                                <i class="fas fa-chevron-left"></i>
+                                <p>1/ <span class="shopping_bottom_last_pg">19</span></p>
+                                <i class="fas fa-chevron-right"></i>
+                            </span>
+                        </div>
+                        <!-- Welcome shopping -->
+                        <div class="welcome_shopping_container">
+                            <hr class="welcome_shopping_divider">
+                            <header class="welcome_shopping_header">
+                                <p>Welcome! Shopping News</p>
+                                <span class="welcome_shopping_side_bar">
+                                    <p>1 / <span class="welcome_shopping_page">11</span></p>
+                                    <i class="fas fa-chevron-left"></i>
+                                    <i class="fas fa-chevron-right"></i> 
+                                </span>
+                            </header>
+                            <main class="welcome_shopping_main_contents">
+                                <ul class="welcome_lists">
+                                    <li>A-Market
+                                        <span class="welcome_main_info">Limited Time Only (30% Discount)</span>
+                                    </li>
+                                    <li>B-Market
+                                        <span class="welcome_main_info">Limited Time Only (30% Discount)</span>
+                                    </li>
+                                    <li>C-Market
+                                        <span class="welcome_main_info">Limited Time Only (30% Discount)</span>
+                                    </li>
+                                </ul>
+                            </main>
+                        </div>
+                    </div>
+                    <!-- End Shopping Pics -->
+                    <div class="side_stock_container">
+                        <hr class="welcome_shopping_divider">
+                        <h4>Stock Information</h4>
+                        <div class="side_stock_content">
+                            <span class="stock_name_img"> 
+                            </span>
+                            <div class="stock_information">
+                                <p class="stock_ticker"></p>
+                                <p class="stock_open"></p>
+                                <p class="stock_current"></p>
+                                <p class="stock_high"></p>
+                                <p class="stock_low"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="side_movie_container">
+                        <hr class="section_movie_divider">
+                        <h3 class="side_movie_title">Movie Currently Has highest Popularity Vote</h3>
+                        <p class="side_movie_updated_date"></p>
+                        <div class="new_movies">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Shopping section Container -->
+        </div>
+        <!-- side content ends -->
+    </section>
+    <hr>
+    <footer class="footer">
+        <main class="footer_mains">
+            <div class="footer_main">
+                <img src="./images/footer/footer_img1.jpg" alt="beautiful design building">
+                <span class="footer_main_info">
+                    <h4 class="footer_main_title">Design the Buildings</h4>
+                    <p>Architecture is getting popular!</p>
+                </span>
+            </div>
+            <div class="footer_main">
+                <img src="./images/footer/footer_img2.jpg" alt="beautiful design interior">
+                <span class="footer_main_info">
+                    <h4 class="footer_main_title">Design the Interiors</h4>
+                    <p>Modernize your house interior!</p>
+                </span>
+            </div>
+            <div class="footer_main">
+                <img src="./images/footer/footer_img3.jpg" alt="Things she bought">
+                <span class="footer_main_info">
+                    <h4 class="footer_main_title">Things She Bought</h4>
+                    <p>Goods, Houses, Cars.</p>
+                </span>
+            </div>
+        </main>
+        <hr>
+        <sub class="footer_sub">
+            <p>Annoucement</p>
+            <p>View Entire Services
+                <i class="fas fa-chevron-right"></i> 
+            </p>
+        </sub><hr>
+        <div class="explanation">
+            <div class="explanation_main_container">
+                <div class="explanation_creater">
+                    <h4>Creator: <span class="explanation_info"> Jun H Park </span></h4>
+                    <h4>Icons <span class="explanation_info"><a href="https://fontawesome.com/" target="_blank">Fontawesome</a></span></h4>
+                    <h4>Weather API: <span class="explanation_info"><a href="https://api.openweathermap.org" target="_blank">openweathermap</a></span></h4>
+                    <h4>Stock API: <span class="explanation_info"><a href="https://finnhub.io" target="_blank">finnhub</a></span> </h4>
+                    <h4>Movie API: <span class="explanation_info"><a href="https://www.themoviedb.org" target="_blank">themoviedb</a></span> </h4>
+                </div>
+                <div class="explanation_creator">
+                    <p> 
+                        <a href="https://github.com/jhpp114" target="_blank">Github</a>
+                        <i class="fab fa-github"></i>
+                    </p>
+                    <p>
+                        <a href="https://github.com/jhpp114/Front_End_CSS/tree/master/Naver" target="_blank">View Code</a>
+                        <i class="fab fa-github"></i>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="extra_buttons">
+            <div class="mode_setting">
+                <i class="far fa-moon"> Change to Dark</i>
+            </div>
+            <div class="scroll_up">
+                <i class="fas fa-angle-double-up"></i>
+                <span>
+                    <p class="scroll_up_btn">Move Up</p>
+                </span>
+                
+            </div>
+        </div>
+    </footer>
+    <!-- End of Main Content -->
+    <!-- Custom js -->
+    <script src="./js/app.js"></script>
+    <script src="./js/weather.js"></script>
+    <script src="./js/stock.js"></script>
+    <script src="./js/movie.js"></script>
+</body>
+</html>
